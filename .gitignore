@@ -1,0 +1,41 @@
+# Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.settings/
+backend/.classpath
+backend/.project
+backend/.factorypath
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Archivos de configuración local
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-dev.properties
+
+# Archivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
