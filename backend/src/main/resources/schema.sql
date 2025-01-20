@@ -55,7 +55,6 @@ CREATE TABLE IF NOT EXISTS productos (
     stock INT NOT NULL,
     stock_disponible INT,
     activo BIT(1) NOT NULL,
-    tienda_id BIGINT NOT NULL,
     proveedor_id BIGINT,
     fecha_creacion datetime(6) NOT NULL,
     fecha_actualizacion datetime(6),
