@@ -21,5 +21,5 @@ public interface ProductoRepository extends JpaRepository<Producto, Long> {
            "OR LOWER(p.codigo) LIKE LOWER(CONCAT('%', :termino, '%'))")
     List<Producto> buscarProductos(String termino);
     
-    List<Producto> findByTienda_IdAndActivoTrue(Long tiendaId);
+    //List<Producto> findByTienda_IdAndActivoTrue(Long tiendaId);
 }

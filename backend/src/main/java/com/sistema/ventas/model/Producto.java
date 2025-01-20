@@ -49,10 +49,6 @@ public class Producto extends EntidadBase {
     @Column(name = "stock_disponible")
     private Integer stockDisponible;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "tienda_id", nullable = false)
-    private Tienda tienda;
-
     @Column(nullable = false)
     private Boolean activo = true;
 
