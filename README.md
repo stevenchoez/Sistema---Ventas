@@ -35,7 +35,7 @@ mvn clean install
    - Crear una base de datos MySQL llamada `sistema_ventas`
    - Actualizar las credenciales en `src/main/resources/application.properties`
 
-4. Ejecutar la aplicación:
+4. Ejecutar la aplicación (Esto creará tu schema automáticamente):
 ```bash
 mvn spring-boot:run
 ```
@@ -70,6 +70,8 @@ La aplicación estará disponible en `http://localhost:5173`
 - Gestión de productos en tiendas
 - Gestión de ventas
 - Dashboard con estadísticas
+
+Si tienes dificultades al ingresar datos, telefonos y cedula tienen 10 dígitos.
 
 ## Tecnologías Utilizadas
 
